@@ -46,6 +46,7 @@ html {
 
 html, html a {
     -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 
@@ -6958,7 +6959,7 @@ td.visible-print {
   display: inline-block;
   margin: 0;
   padding: 30px 30px;
-  background-color: rgba(44, 62, 80, .3);
+  background-color: rgba(44, 62, 80, 1);
 }
 @media (max-width: 560px) {
   .inner {
