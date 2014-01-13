@@ -6951,6 +6951,7 @@ td.visible-print {
   padding: 75px 150px 0px 150px;
 }
 .inner h1 {
+  width: 50%;
   font-size: 46px;
   font-weight: normal;
   color: #ffffff;
