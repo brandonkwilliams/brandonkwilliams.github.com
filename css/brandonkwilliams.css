@@ -1,0 +1,146 @@
+/*!
+ * brandonkwillia.ms v1.0 (http://www.brandonkwillia.ms)
+ * Copyright 2014 Brandon K. Williams
+ */
+
+ /*! Header Navigation */
+ .navbar {
+  position: relative;
+  z-index: 1000;
+  height: 55px;
+  margin-bottom: 20px;
+  padding-top: 2.5px;
+  border-bottom: 0px solid transparent;
+}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #999999;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: rgb(26, 29, 35);
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: rgb(26, 29, 35);
+  background-color: #ffffff;
+}
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+.navbar-brand {
+  float: left;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 300;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: rgb(26, 29, 35);
+  background-color: transparent;
+}
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 13.5px 0px 10px 10px;
+  margin-top: 5px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  border-radius: 3px;
+  border: dashed 0px #ffffff;
+}
+.navbar-collapse {
+  max-height: 340px;
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  border-top: 0px dashed #ffffff;
+  box-shadow: inset 0 0px 0 rgba(255, 255, 255, 0.1);
+  -webkit-overflow-scrolling: touch;
+  background-color: #f8f8f8;
+}
+
+/* Body Elements */
+.outer-full-page {
+  display: table;
+  width: 100vw;
+  height: 100vh;
+}
+.inner {
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+  padding: 55px 0px 0px 0px;
+}
+
+/* About */
+.about-image {
+  background: url("../img/bwstudio.png") 75% center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: #ffffff;
+}
+.light {
+	font-weight: 300;
+}
+h1{
+  font-size: 300%;
+}
+@media (max-width: 990px){
+  .inner {
+  	vertical-align: bottom;
+  	padding-bottom: 10%;
+  	text-align: center;	
+  }
+}
+@media (max-width: 320px){
+  h1 {
+  	font-size: 200%;
+  }
+}
+.glyphicon-circle-arrow-down {
+	color: rgba(255, 255, 255, .3);
+	font-size: 300%;
+
+}
+.glyphicon-circle-arrow-down:hover {
+	color: rgba(255, 255, 255, 1);
+}
+
+/* Philosophy */
+.philosophy-image {
+  background: url("../img/mannequin.png") 25% 40% no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: #ffffff;
+}
+.bg-blue {
+	background-color: rgb(26, 29, 35);
+}
+.bg-white {
+	background-color: white;
+}
+.blue-text {
+	color: rgb(26, 29, 35);
+}
+.white-text {
+	color: white;
+}
+h2 {
+	font-weight: 300;
+}
