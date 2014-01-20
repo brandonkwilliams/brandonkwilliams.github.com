@@ -75,7 +75,7 @@
     </div>
     
     <!-- Philosophy -->
-    <div class="outer-full-page" id="Philosophy">
+    <div class="outer-full-page bg-blue" id="Philosophy">
         <div class="inner philosophy-image">
             <div class="container">
                 <div class="row">
@@ -94,14 +94,33 @@
     </div>
 
     <!-- Work -->
-    <div class="outer-full-page" id="Work">
-        <div class="inner bg-blue">
+    <a style="display:block" href="http://google.com">
+        <div class="outer-third-page" id="Work">
+            <div class="inner-third chair-image">
+                <div class="container">
+                    <h1 class="text-left">Lounge Chair / School / 2013</h1>
+                </div>
+            </div> 
         </div>
-    </div>
-    <div class="outer-full-page">
-        <div class="inner bg-white">
+    </a>
+    <a style="display:block" href="http://google.com">
+        <div class="outer-third-page">
+            <div class="inner-third shoe-image">
+                <div class="container">
+                    <h1 class="text-left">Dress Shoe / School / 2013</h1>
+                </div>
+            </div> 
         </div>
-    </div>
+    </a>
+     <a style="display:block" href="http://google.com">
+        <div class="outer-third-page">
+            <div class="inner-third speaker-image">
+                <div class="container">
+                    <h1 class="text-left">Bluetooth Speaker / School / 2013</h1>
+                </div>
+            </div> 
+        </div>
+    </a>
 
     <!-- Resume -->
 
@@ -154,6 +173,12 @@
             changeHash: true,
             scrollSpeed: 1200,
             });
+        </script>
+        <script>
+        $(".divLink").click(function(){
+     window.location=$(this).find("a").attr("href"); 
+     return false;
+        });
         </script>
     </body>
 </html>
