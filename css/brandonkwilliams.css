@@ -153,6 +153,7 @@ h2 {
   display: table;
   width: 100vw;
   height: 33vh;
+  border-bottom: 1px solid rgb(240, 240, 240);
 }
 .inner-third {
   display: table-cell;
@@ -178,8 +179,11 @@ h2 {
   background-size: cover;
   overflow: hidden;
 }
-
-
+@media (max-width: 1024px){
+  .inner-third{
+  	color: rgba(26, 29, 35, .6);
+  }
+}
 
 
 
