@@ -3,11 +3,35 @@
  * Copyright 2014 Brandon K. Williams
  */
 
- /*! Header Navigation */
- .navbar {
+/* Container */
+ .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: transparent;
+}
+.container > .navbar-header,
+.container > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .container > .navbar-header,
+  .container > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+    background-color: transparent;
+  }
+}
+
+/* Header Navigation */
+.navbar {
   position: relative;
   z-index: 1000;
-  height: 55px;
+  min-height: 55px;
   margin-bottom: 20px;
   padding-top: 2.5px;
   border-bottom: 0px solid transparent;
@@ -15,6 +39,7 @@
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #ffffff;
+  opacity: .95;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
@@ -28,7 +53,6 @@
   color: rgb(26, 29, 35);
   background-color: transparent;
 }
-
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -73,122 +97,202 @@
   box-shadow: inset 0 0px 0 rgba(255, 255, 255, 0.1);
   -webkit-overflow-scrolling: touch;
   background-color: #f8f8f8;
-}
+  text-align: center;
+  }
 
 /* Body Elements */
 .outer-full-page {
   display: table;
   width: 100%;
   height: 100vh;
-  border-bottom: 1px solid rgb(240, 240, 240);
 }
-.inner {
+.inner-full-page {
+  display: table-cell;
+  padding: 55px 0px 0px 0px;
+}
+.outer-fit {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.inner-fit {
+	display: table-cell;
+	padding: 75px 0px 75px 0px;
+}
+.inner-full-page {
   display: table-cell;
   text-align: left;
+  padding: 0px 0px 0px 0px;
+}
+.outer-third-page {
+  display: table;
+  width: 100vw;
+  height: 33vh;
+}
+.inner-third-page {
+  display: table-cell;
   vertical-align: middle;
-  padding: 55px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  color: transparent;
 }
 
 /* About */
 .about-image {
-  background: url("../img/bwstudio.png") 75% center no-repeat;
+  /*background: url("../img/bwstudio.png") center center no-repeat;*/
   background-size: cover;
   overflow: hidden;
-  color: #ffffff;
-}
-.light {
-	font-weight: 300;
-}
-h1{
-  font-size: 300%;
-}
-@media (max-width: 990px){
-  .inner {
-  	vertical-align: bottom;
-  	padding-bottom: 10%;
-  	text-align: center;	
-  }
-}
-@media (max-width: 320px){
-  h1 {
-  	font-size: 200%;
-  }
-}
-.glyphicon-circle-arrow-down {
-	color: rgba(255, 255, 255, .3);
-	font-size: 300%;
-
-}
-.glyphicon-circle-arrow-down:hover {
-	color: rgba(255, 255, 255, 1);
 }
 
 /* Philosophy */
 .philosophy-image {
-  background: url("../img/mannequin.png") 25% 40% no-repeat;
+  /*background: url("../img/mannequin.png") 25% 40% no-repeat;*/
   background-size: cover;
   overflow: hidden;
   color: #ffffff;
 }
+
+/* Work */
+.chair-image {
+  /*background: url("../img/ChairPage.png") right 35% no-repeat;*/
+  background-size: cover;
+  overflow: hidden;
+}
+.shoe-image {
+  /*background: url("../img/ShoePage.png") center 15% no-repeat;*/
+  background-size: cover;
+  overflow: hidden;
+}
+.speaker-image {
+  /*background: url("../img/SpeakerPage.png") center 5% no-repeat;*/
+  background-size: cover;
+  overflow: hidden;
+}
+
+/* Contact */
+.outer-150 {
+  display: table;
+  width: 100%;
+  height: 150px;
+}
+.inner-150 {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0px 0px 35px 0px;
+}
+
+
+/* Work Pages */
+
+
+/* Font Choices */
+.font-white {
+	color: white;
+}
+.font-blue {
+	color: rgb(26, 29, 35);
+}
+.font-gray {
+	color: #555555;
+}
+.font-light {
+	font-weight: 100;
+}
+.font-normal {
+	font-weight: 300;
+}
+.font-bold {
+	font-weight: 500;
+}
+h1 {
+	font-size: 300%;
+	font-weight: 300;
+}
+h2 {
+	font-size: 200%;
+	font-weight: 300;
+}
+h3 {
+	font-size: 150%;
+	font-weight: 300;
+}
+p {
+	font-size: 100%;
+	font-weight: 300;
+}
+
+/* Background Colors */
 .bg-blue {
 	background-color: rgb(26, 29, 35);
 }
 .bg-white {
 	background-color: white;
 }
-.blue-text {
-	color: rgb(26, 29, 35);
+.bg-gray {
+	background-color: #eeeeee;
 }
-.blue-text:hover {
-	color: rgba(26, 29, 35, 0.9);
-}
-.white-text {
-	color: white;
-}
-h2 {
-	font-weight: 300;
+.bg-dark-gray {
+	background-color: #777777;
 }
 
-/* Work */
-.outer-third-page {
-  display: table;
-  width: 100vw;
-  height: 33vh;
-  border-bottom: 1px solid rgb(240, 240, 240);
+/* Vertical Alignment */
+.top {
+	vertical-align: top;
 }
-.inner-third {
-  display: table-cell;
-  vertical-align: middle;
-  padding: 0px 0px 0px 0px;
-  color: transparent;
+.middle {
+	vertical-align: middle;
 }
-.inner-third:hover {
-  color: rgba(26, 29, 35, .6);
-}
-.chair-image {
-  background: url("../img/ChairPage.png") right 35% no-repeat;
-  background-size: cover;
-  overflow: hidden;
-}
-.shoe-image {
-  background: url("../img/ShoePage.png") center 15% no-repeat;
-  background-size: cover;
-  overflow: hidden;
-}
-.speaker-image {
-  background: url("../img/SpeakerPage.png") center 5%% no-repeat;
-  background-size: cover;
-  overflow: hidden;
-}
-@media (max-width: 1024px){
-  .inner-third{
-  	color: rgba(26, 29, 35, .6);
-  }
+.bottom {
+	vertical-align: bottom;
 }
 
+/* Horizontal Alignment */
+.left {
+	text-align: left;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
 
+/* Other Elements */
+.outer-line-top {
+	width: 100%;
+	height: 30px;
+}
+.outer-line-bottom {
+	width: 100%;
+	height: 40px;
+}
+.inner-line {
+	width: 50px;
+	height: 5px;
+	background-color: rgb(220, 220, 220);
+	vertical-align: middle;
+	display: table;
+	margin: 0 auto;
+}
+.outer-small-line-top {
+	width: 100%;
+	height: 5px;
+}
+.outer-small-line-bottom {
+	width: 100%;
+	height: 10px;
+}
+.inner-small-line {
+	width: 30px;
+	height: 3px;
+	background-color: rgb(220, 220, 220);
+	vertical-align: middle;
+	display: table;
+	margin: 0;
+}
 
-
-
+/* Responsive Images */
+.img-responsive {
+	padding: 35px 0px 0px 0px;
+}
 
 
