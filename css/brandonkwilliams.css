@@ -505,3 +505,25 @@ a:hover {
 	text-decoration: none;
 }
 */
+@media (max-width: 767px) {
+	h1 {
+	font-size: 200%;
+	font-weight: 500;
+}
+	h2 {
+	font-size: 150%;
+	font-weight: 500;
+}
+	h3 {
+	font-size: 125%;
+	font-weight: 300;
+}
+	h4 {
+	font-size: 100%;
+	font-weight: 300;
+}
+	p {
+	font-size: 100%;
+	font-weight: 300;
+}
+}
