@@ -370,7 +370,8 @@ textarea.form-control {
 	padding: 35px 0px 0px 0px;
 }
 .img-circle {
-	padding: 5px 5px;
+	border-radius: 2px;
+	padding: 5px 5px 25px 5px;
 }
 
 /* Special Spacing */
