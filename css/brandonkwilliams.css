@@ -415,7 +415,7 @@ textarea.form-control {
 /* Images */
 .work-image1 {
 	height: 270px;
-	background: url("../img/chairpage.png") center center no-repeat;
+	background: url("../img/ChairPage.png") center center no-repeat;
   	background-size: cover;
   	overflow: hidden;
   	border: 2px solid #f8f8f8;
@@ -423,7 +423,7 @@ textarea.form-control {
 }
 .work-image2 {
 	height: 270px;
-	background: url("../img/shoepage.png") center center no-repeat;
+	background: url("../img/ShoePage.png") center center no-repeat;
   	background-size: cover;
   	overflow: hidden;
   	border: 2px solid #f8f8f8;
@@ -431,7 +431,7 @@ textarea.form-control {
 }
 .work-image3 {
 	height: 270px;
-	background: url("../img/speakerpage.png") center center no-repeat;
+	background: url("../img/SpeakerPage.png") center center no-repeat;
   	background-size: cover;
   	overflow: hidden;
   	border: 2px solid #f8f8f8;
