@@ -189,14 +189,21 @@
 
 
 /* Font Choices */
-.font-white {
-	color: white;
-}
 .font-blue {
 	color: #42454e;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	-webkit-font-smoothing: antialiased !important;
 }
 .font-gray {
-	color: #555555;
+	color: #777777;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	-webkit-font-smoothing: antialiased !important;
+}
+.font-white {
+	color: white;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	-webkit-font-smoothing: antialiased !important;
+
 }
 .font-light {
 	font-weight: 100;
@@ -209,11 +216,11 @@
 }
 h1 {
 	font-size: 300%;
-	font-weight: 300;
+	font-weight: 500;
 }
 h2 {
 	font-size: 200%;
-	font-weight: 300;
+	font-weight: 500;
 }
 h3 {
 	font-size: 150%;
@@ -236,7 +243,7 @@ p {
 	background-color: white;
 }
 .bg-gray {
-	background-color: #eeeeee;
+	background-color: #f0f0f0;
 }
 .bg-dark-gray {
 	background-color: #777777;
@@ -363,7 +370,7 @@ textarea.form-control {
 	padding: 35px 0px 0px 0px;
 }
 .img-circle {
-	padding: 25px 5px;
+	padding: 5px 5px;
 }
 
 /* Special Spacing */
@@ -373,11 +380,8 @@ textarea.form-control {
 .padded-top {
 	padding-top: 15px;
 }
-.pad-space {
-	height: 25px;
-	width: 100%;
-	background-color: transparent;
-
+.padded-bottom-25 {
+	padding-bottom: 25px;
 }
 
 /* Special Button */
@@ -421,27 +425,49 @@ textarea.form-control {
 /* Images */
 .work-image1 {
 	height: 270px;
-	background: url("../img/ChairPage.png") center center no-repeat;
+	width: 100%;
+	background: url("http://placehold.it/960x270") center center no-repeat;
   	background-size: cover;
   	overflow: hidden;
-  	border: 2px solid #f8f8f8;
   	border-radius: 2px;
 }
 .work-image2 {
 	height: 270px;
-	background: url("../img/ShoePage.png") center center no-repeat;
+	background: url("http://placehold.it/960x270") center center no-repeat;
   	background-size: cover;
   	overflow: hidden;
-  	border: 2px solid #f8f8f8;
   	border-radius: 2px;
 }
 .work-image3 {
 	height: 270px;
-	background: url("../img/SpeakerPage.png") center center no-repeat;
+	background: url("http://placehold.it/960x270") center center no-repeat;
   	background-size: cover;
   	overflow: hidden;
-  	border: 2px solid #f8f8f8;
   	border-radius: 2px;
+}
+.filler-full {
+	height: 540px;
+	background: url("http://placehold.it/960x540") center center no-repeat;
+}
+.filler-half-landscape {
+	height: 270px;
+	background: url("http://placehold.it/960x270") center center no-repeat;
+}
+.filler-half-portrait {
+	height: 540px;
+	background: url("http://placehold.it/480x540") center center no-repeat;
+}	
+.filler-fourth-landscape {
+	height: 270px;
+	background: url("http://placehold.it/480x270") center center no-repeat;
+}
+.filler-fourth-portrait {
+	height: 270px;
+	background: url("http://placehold.it/240x270") center center no-repeat;
+}
+.filler-eighth-landscape {
+	height: 135px;
+	background: url("http://placehold.it/240x135") center center no-repeat;
 }
 
 /* Links
