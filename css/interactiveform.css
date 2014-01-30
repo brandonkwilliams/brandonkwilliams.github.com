@@ -1,0 +1,601 @@
+/*!
+ * brandonkwillia.ms v1.0 (http://www.brandonkwillia.ms)
+ * Copyright 2014 Brandon K. Williams
+ */
+
+/* Container */
+ .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: transparent;
+  max-width: 960px;
+}
+.container > .navbar-header,
+.container > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .container > .navbar-header,
+  .container > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+    background-color: transparent;
+  }
+}
+
+/* Header Navigation */
+.navbar {
+  position: relative;
+  z-index: 1000;
+  min-height: 55px;
+  margin-bottom: 20px;
+  padding-top: 2.5px;
+  border-bottom: 0px solid transparent;
+}
+.navbar-green {
+  background-color: rgb(15, 95, 46);
+  border-color: #ffffff;
+}
+.navbar-green .navbar-toggle:hover,
+.navbar-green .navbar-toggle:focus {
+  background-color: transparent;
+}
+.navbar-green .navbar-toggle .icon-bar {
+  background-color: #f8f8f8;
+}
+.navbar-green .navbar-nav > li > a,
+.navbar-green .navbar-nav > li > a {
+  color: white;
+  background-color: transparent;
+  font-weight: 100;
+  text-shadow: none;
+}
+.navbar-green .navbar-nav > li > a:hover,
+.navbar-green .navbar-nav > li > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-green .navbar-nav > .active > a,
+.navbar-green .navbar-nav > .active > a:hover,
+.navbar-green .navbar-nav > .active > a:focus {
+  color: #cccccc;
+  background-color: #ffffff;
+}
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+.navbar-brand {
+  float: left;
+  padding: 10px 10px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 100;
+  color: #f8f8f8;
+  text-shadow: none;
+}
+.navbar-brand img {
+  margin-top: -4px;
+}
+.center-spaced{
+  padding-left: 25px;
+}
+.navbar-green .navbar-brand:hover,
+.navbar-green .navbar-brand:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 17px 0px 0px 0px;
+  margin-top: 5px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  border-radius: 3px;
+  border: dashed 0px #ffffff;
+}
+.navbar-collapse {
+  max-height: 340px;
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  border-top: 0px dashed #ffffff;
+  box-shadow: inset 0 0px 0 rgba(255, 255, 255, 0.1);
+  -webkit-overflow-scrolling: touch;
+  background-color: #f8f8f8;
+  text-align: center;
+  }
+
+/* Body Elements */
+.outer-full-page {
+  display: table;
+  width: 100%;
+}
+.inner-full-page {
+  display: table-cell;
+  padding: 55px 0px 0px 0px;
+}
+.outer-fit {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.inner-fit {
+	display: table-cell;
+	padding: 75px 0px 0px 0px;
+}
+.inner-fit-contact {
+	display: table-cell;
+	padding: 10px 0px 0px 0px;
+}
+.inner-full-page {
+  display: table-cell;
+  text-align: left;
+  padding: 0px 0px 0px 0px;
+}
+.outer-third-page {
+  display: table;
+  width: 100vw;
+  height: 33vh;
+}
+.inner-third-page {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0px 0px 0px 0px;
+  color: transparent;
+}
+
+/* About */
+.about-image {
+  /*background: url("../img/bwstudio.png") center center no-repeat;*/
+  background-size: cover;
+  overflow: hidden;
+}
+
+/* Philosophy */
+.philosophy-image {
+  /*background: url("../img/mannequin.png") 25% 40% no-repeat;*/
+  background-size: cover;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+/* Work */
+.chair-image {
+  /*background: url("../img/ChairPage.png") right 35% no-repeat;*/
+  background-size: cover;
+  overflow: hidden;
+}
+.shoe-image {
+  /*background: url("../img/ShoePage.png") center 15% no-repeat;*/
+  background-size: cover;
+  overflow: hidden;
+}
+.speaker-image {
+  /*background: url("../img/SpeakerPage.png") center 5% no-repeat;*/
+  background-size: cover;
+  overflow: hidden;
+}
+
+/* Contact */
+.outer-150 {
+  display: table;
+  width: 100%;
+  height: 150px;
+}
+.inner-150 {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0px 0px 0px 0px;
+  }
+
+
+/* Work Pages */
+
+
+/* Font Choices */
+.font-green {
+	color: rgb(15, 96, 46);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	-webkit-font-smoothing: antialiased !important;
+}
+.font-gray {
+	color: #444444;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	-webkit-font-smoothing: antialiased !important;
+}
+.font-white {
+	color: white;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	-webkit-font-smoothing: antialiased !important;
+
+}
+.font-light {
+	font-weight: 100;
+}
+.font-normal {
+	font-weight: 300;
+}
+.font-bold {
+	font-weight: 500;
+}
+h1 {
+	font-size: 300%;
+	font-weight: 500;
+}
+h2 {
+	font-size: 150%;
+	font-weight: 300;
+}
+h3 {
+	font-size: 150%;
+	font-weight: 300;
+}
+h4 {
+	font-size: 100%;
+	font-weight: 300;
+}
+p {
+	font-size: 100%;
+	font-weight: 300;
+}
+
+/* Background Colors */
+.bg-green {
+	background-color: rgb(15, 95, 46);
+}
+.bg-white {
+	background-color: white;
+}
+.bg-gray {
+	background-color: #f0f0f0;
+}
+.bg-dark-gray {
+	background-color: #777777;
+}
+
+/* Vertical Alignment */
+.top {
+	vertical-align: top;
+}
+.middle {
+	vertical-align: middle;
+}
+.bottom {
+	vertical-align: bottom;
+}
+
+/* Horizontal Alignment */
+.left {
+	text-align: left;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+
+/* Other Elements */
+.outer-line-top {
+	width: 100%;
+	height: 5px;
+}
+.outer-line-bottom {
+	width: 100%;
+	height: 0px;
+}
+.inner-line {
+	width: 50px;
+	height: 5px;
+	background-color: rgb(220, 220, 220);
+	vertical-align: middle;
+	display: table;
+	margin: 0 auto;
+}
+.inner-line-dark {
+	width: 50px;
+	height: 5px;
+	background-color: rgb(220, 220, 220);
+	vertical-align: middle;
+	display: table;
+	margin: 0 auto;
+}
+.outer-small-line-top {
+	width: 100%;
+	height: 0px;
+}
+.outer-small-line-bottom {
+	width: 100%;
+	height: 10px;
+}
+.inner-small-line {
+	width: 30px;
+	height: 3px;
+	background-color: rgb(220, 220, 220);
+	vertical-align: middle;
+	display: table;
+	margin: 0;
+}
+
+/* Form Areas */
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 100%;
+  line-height: 1.428571429;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  background-image: none;
+  border: 2px solid white;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .25s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out .25s, box-shadow ease-in-out 0.15s;
+}
+.form-control:focus {
+  border-color: rgb(150, 150, 150);
+  outline: 0;
+  -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075), 0 0 0px rgba(102, 175, 233, 0.6);
+          box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075), 0 0 0px rgba(102, 175, 233, 0.6);
+  color: #555555;
+}
+.form-control:-moz-placeholder {
+  color: #999999;
+  font-weight: 300;
+}
+.form-control::-moz-placeholder {
+  color: #999999;
+  opacity: 1;
+  font-weight: 300;
+}
+.form-control:-ms-input-placeholder {
+  color: #999999;
+  font-weight: 300;
+}
+.form-control::-webkit-input-placeholder {
+  color: #999999;
+  font-weight: 300;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+}
+textarea.form-control {
+  height: auto;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Responsive Images */
+.img-responsive {
+	padding: 0px 0px 0px 0px;
+}
+.img-circle {
+	border-radius: 2px;
+	padding: 5px 5px 25px 5px;
+}
+
+/* Special Spacing */
+.padded-bottom {
+	padding-bottom: 15px;
+}
+.padded-top {
+	padding-top: 15px;
+}
+.padded-bottom-25 {
+	padding-bottom: 25px;
+}
+
+/* Special Button */
+.btn {
+  width: 100%;
+  display: inline-block;
+  padding: 12px 0px;
+  margin-bottom: 0;
+  font-size: 100%;
+  font-weight: 500;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 2px solid transparent;
+  border-radius: 0px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+}
+.btn:focus {
+  outline: none;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}
+.btn-new {
+	font-weight: 100;
+  text-shadow: none;
+  color: white;
+	border-color: rgb(15,96,46);
+	background-color: rgb(15,96,46);
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transitiona: all .2s ease;
+}
+.btn-new:hover {
+	background-color: transparent;
+	color: rgb(15,96,46);
+	text-shadow: none;
+}
+.btn-new-selected {
+  background-color: transparent;
+  color: rgb(15,96,46);
+  text-shadow: none;
+}
+.btn-new:focus {
+  background-color: transparent;
+  color: rgb(15,96,46);
+  text-shadow: none;
+}
+.btn-white {
+  font-weight: 100;
+  text-shadow: none;
+  color: rgb(15,96,46);
+  border-color: white;
+  background-color: white;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transitiona: all .2s ease;
+}
+.btn-white:hover {
+  background-color: transparent;
+  color: white;
+  text-shadow: none;
+}
+/* Media Queries */
+
+
+/* Images */
+.work-image1 {
+	height: 270px;
+	width: 100%;
+	background: url("http://placehold.it/960x270") center center no-repeat;
+  	background-size: cover;
+  	overflow: hidden;
+  	border-radius: 2px;
+}
+.work-image2 {
+	height: 270px;
+	background: url("http://placehold.it/960x270") center center no-repeat;
+  	background-size: cover;
+  	overflow: hidden;
+  	border-radius: 2px;
+}
+.work-image3 {
+	height: 270px;
+	background: url("http://placehold.it/960x270") center center no-repeat;
+  	background-size: cover;
+  	overflow: hidden;
+  	border-radius: 2px;
+}
+.filler-full {
+	height: 540px;
+	background: url("http://placehold.it/960x540") center center no-repeat;
+}
+.filler-half-landscape {
+	height: 270px;
+	background: url("http://placehold.it/960x270") center center no-repeat;
+}
+.filler-half-portrait {
+	height: 540px;
+	background: url("http://placehold.it/480x540") center center no-repeat;
+}	
+.filler-fourth-landscape {
+	height: 270px;
+	background: url("http://placehold.it/480x270") center center no-repeat;
+}
+.filler-fourth-portrait {
+	height: 270px;
+	background: url("http://placehold.it/240x270") center center no-repeat;
+}
+.filler-eighth-landscape {
+	height: 135px;
+	background: url("http://placehold.it/240x135") center center no-repeat;
+}
+
+/* Links
+.link {
+	height: 100%;
+	width: 100%;
+	background-color: transparent;
+	opacity: 0;
+	color: transparent;
+	vertical-align: top;
+	text-align: right;
+	font-size: 150%;
+	font-weight: 300;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transitiona: all .2s ease;
+}
+.link:hover {
+	background-color: #42454e;
+	opacity: .9;
+	color: white;
+}
+a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 10px 250px 250px;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transitiona: all .2s ease;
+}
+a:hover {
+	color: #eeeeee;
+	text-decoration: none;
+}
+*/
+@media (max-width: 767px) {
+	h1 {
+	font-size: 200%;
+	font-weight: 500;
+}
+	h2 {
+	font-size: 150%;
+	font-weight: 500;
+}
+	h3 {
+	font-size: 125%;
+	font-weight: 300;
+}
+	h4 {
+	font-size: 100%;
+	font-weight: 300;
+}
+	p {
+	font-size: 100%;
+	font-weight: 300;
+}
+.outline {
+  border: 2px solid white;
+}
+.row {
+  padding-bottom: 25px;
+}
+.top-padding{
+  padding-top: 25px;
+}
+.modal-content {
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #999999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
+  outline: none;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+}
