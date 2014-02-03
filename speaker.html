@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/brandonkwilliams.css">
+        <link rel="stylesheet" href="css/form.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
@@ -58,7 +59,7 @@
     
     <!-- Project Outline -->
     <div class="outer-fit bg-blue" id="Philosophy">
-        <div class="inner-fit philosophy-image top center">
+        <div class="inner-fit-project philosophy-image top center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3 font-white">
@@ -148,7 +149,7 @@
                 <div class="row padded-top">
                     <div class="col-md-12 text-right">
                         <a href="guitarcase.html"><img class="img-responsive" src="img/guitarcasehome.jpg"></a>
-                        <input type="button" value="Guitar Case | 2011" class="btn btn-new" onclick="location.href='guitarcase.html';">
+                        <input type="button" value="Guitar Case | 2011" class="btn btn-blue" onclick="location.href='guitarcase.html';">
                         </div>
                         <div class="pad-space">
                     </div>
@@ -156,7 +157,7 @@
                 <div class="row padded-top">
                     <div class="col-md-12 text-right">
                         <a href="loungechair.html"><img class="img-responsive" src="img/chairpagehome.jpg"></a>
-                        <input type="button" value="Lounge Chair | 2013" class="btn btn-new" onclick="location.href='loungechair.html';">
+                        <input type="button" value="Lounge Chair | 2013" class="btn btn-blue" onclick="location.href='loungechair.html';">
                         </div>
                         <div class="pad-space">
                     </div>
@@ -166,10 +167,10 @@
     </div>
 
     <!-- Contact -->
-    <div class="outer-full-page bg-green" id="Contact">
+    <div class="outer-full-page bg-blue" id="Contact">
         <div class="inner-full-page middle center">
             <div class="container">
-                <div class="row">
+                <div class="row padded-bottom">
                     <div class="col-md-6 col-md-offset-3 font-white">
                         <h1>Contact</h1>
                         <div class="outer-line-top">  
@@ -181,37 +182,48 @@
                         <span class="font-white"><h3>I love what I do. Feel free to send me an email or give me a call if you'd like to learn more about me or any of my projects.</h3></span>
                     </div>
                 </div>
-                <!-- <form role="form">
-                    <div class="form-group">
-                        <div class="col-md-12">
-                            <input class="form-control" id="name" type="text" placeholder="Full Name">
+
+                <div class="col-md-8 col-md-offset-2">
+                <form id="form1" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://brandonkwilliams.wufoo.com/forms/zv5ugmr1asipbp/#public">
+                <ul>
+                    <li id="foli211" class="notranslate namebox">
+                        <label class="desc" id="title211" for="Field211">
+                        </label>
+                            <div>
+                                <input id="Field211" name="Field211" type="text" class="field text large" placeholder="Name" maxlength="255" tabindex="1" onkeyup="" />
+                            </div>
+                    </li>
+                    <li id="foli208" class="notranslate emailbox">
+                        <label class="desc" id="title208" for="Field208">
+                        </label>
+                        <div>
+                            <input id="Field208" name="Field208" type="email" spellcheck="false" class="field text large" placeholder="Email" maxlength="255" tabindex="2" /> 
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-md-12">
-                            <input class="form-control" id="email" type="email" placeholder="Email">
+                    </li>
+                    <li id="foli3" 
+                    class="notranslate messagebox">
+                        <label class="desc" id="title3" for="Field3">
+                        </label>
+                        <div>
+                            <textarea id="Field3" name="Field3" class="field textarea medium" spellcheck="true" rows="10" cols="50" tabindex="3" onkeyup="" placeholder="Message"></textarea>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-md-12">
-                            <textarea rows="10"class="form-control"
-                            placeholder="Message" id="message"></textarea>
+                    </li> 
+                    <li class="buttons ">
+                        <div>
+                            <input id="saveForm" name="saveForm" class="btn btn-green submit" type="submit" value="Submit"/>
                         </div>
+                    </li>
+                </ul>
+                </form> 
+
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-8">
+                        <h3><span class="font-normal font-gray">email. brandonwilliams.nu@gmail.com | phone. 574-305-1468</span></h3>
                     </div>
-                    <div class="form-group">
-                        <div class="col-md-12">
-                            <button type="submit" name="submit" class="btn btn-new">Send</button>
-                        </div>
-                    </div>
-                </form> -->
-                <div class="row padded-bottom">
-                    <div class="col-md-offset-3 col-md-6">
-                        <h3><span class="font-light">email. brandonwilliams.nu@gmail.com | phone. 574-305-1468</span></h3>
-                    </div>
-                </div>       
+                </div>
             </div>   
         </div>
-    </div> 
+    </div>   
 
         <!-- Load JS here for greater good =============================-->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

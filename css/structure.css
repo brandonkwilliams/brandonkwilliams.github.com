@@ -195,7 +195,7 @@ form li div label .currently {
     display: none;
 }
 input.text, input.search, input.file, textarea.textarea, select.select {
-    font-family: "Lucida Grande",  Tahoma,  Arial,  sans-serif;
+    font-family: inherit;
     font-size: 100%;
     color: #333;
     margin: 0;

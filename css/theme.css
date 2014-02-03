@@ -103,7 +103,7 @@ html{
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select{
 	font-style:normal;
 	font-weight:normal;
-	color:#333333;
+	color: rgb(26, 29, 35);
 	font-size:100%;
 }
 {* Custom Fonts Break Dropdown Selection in IE *}
