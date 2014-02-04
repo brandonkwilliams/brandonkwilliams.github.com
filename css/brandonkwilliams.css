@@ -293,18 +293,19 @@ p {
 .inner-line {
 	width: 50px;
 	height: 5px;
-	background-color: rgb(220, 220, 220);
+	background-color: #26936c;
 	vertical-align: middle;
 	display: table;
-	margin: 0 auto;
+	margin: 0;
 }
-.inner-line-dark {
+.inner-line-blue {
 	width: 50px;
 	height: 5px;
-	background-color: rgb(220, 220, 220);
+	background-color: #42454e;
 	vertical-align: middle;
 	display: table;
 	margin: 0 auto;
+  float: left;
 }
 .outer-small-line-top {
 	width: 100%;
@@ -312,12 +313,12 @@ p {
 }
 .outer-small-line-bottom {
 	width: 100%;
-	height: 10px;
+	height: 0px;
 }
 .inner-small-line {
-	width: 30px;
+	width: 15px;
 	height: 3px;
-	background-color: rgb(220, 220, 220);
+	background-color: transparent;
 	vertical-align: middle;
 	display: table;
 	margin: 0;
@@ -441,6 +442,20 @@ textarea.form-control {
   -o-transitiona: all .2s ease;
 }
 .btn-blue:hover {
+  background-color: #42454e;
+  color: #ffffff;
+  text-shadow: none;
+}
+.btn-blue-gray {
+  color: #42454e;
+  border-color: #42454e;
+  background-color: transparent;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transitiona: all .2s ease;
+}
+.btn-blue-gray:hover {
   background-color: #42454e;
   color: #ffffff;
   text-shadow: none;
