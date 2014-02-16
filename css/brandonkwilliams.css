@@ -256,18 +256,18 @@ p {
 }
 .bg-white {
 	background-color: #ffffff;
-  border-bottom: 15px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 15px solid rgba(0, 0, 0, 0.025);
 }
 .bg-gray {
 	background-color: #ecf0f1;
-  border-bottom: 15px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 15px solid rgba(0, 0, 0, 0.02);
 }
 .bg-dark-gray {
 	background-color: #dddddd;
 }
 .bg-green {
   background-color: rgb(48, 198, 81);
-  border-bottom: 15px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 15px solid rgba(0, 0, 0, 0.03);
 }
 .bg-light-green {
   background-color: #41a444;
@@ -430,12 +430,13 @@ textarea.form-control {
 /* Responsive Images */
 .img-responsive {
 	padding: 0px 0px 0px 0px;
-  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.05)
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.05);
 }
 .img-circle {
 -webkit-border-radius: 50%;
 -moz-border-radius: 50%;
 border-radius: 50%;
+box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.05);
 }
 /* Special Spacing */
 .padded-bottom {
