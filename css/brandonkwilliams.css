@@ -246,7 +246,7 @@ h2 {
 	font-weight: 700;
   line-height: 125%;
   letter-spacing: -1px;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat','Helvetica Neue','Helvetica',sans-serif;
 }
 h3 {
 	font-size: 200%;
@@ -266,14 +266,14 @@ p {
   font-size: 300%;
   font-weight: 400;
   letter-spacing: -2px;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat','Helvetica Neue','Helvetica',sans-serif;
 }
 .title {
   font-size: 800%;
   width: 100%;
   font-weight: 400;
   letter-spacing: -7px;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat','Helvetica Neue','Helvetica',sans-serif;
 }
 .title-headline {
   font-size: 300%;
