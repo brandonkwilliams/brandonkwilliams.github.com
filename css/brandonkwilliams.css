@@ -609,7 +609,7 @@ padding: 5px 5px;
 	color: white;
 }*/
 a {
-	color: white;
+	color: #222222;
 	text-decoration: none;
 	-webkit-transition: all .2s ease;
 	-moz-transition: all .2s ease;
@@ -617,7 +617,7 @@ a {
 	-o-transitiona: all .2s ease;
 }
 a:hover {
-	color: #eeeeee;
+	color: #444444;
 	text-decoration: none;
 }
 
