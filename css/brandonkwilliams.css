@@ -646,8 +646,27 @@ a:hover {
   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
   -webkit-font-smoothing: antialiased !important;
 }
-  .btn-blue {
+  .btn-blue-work {
   width: 100%;
+}
+.headline {
+  font-size: 250%;
+  font-weight: 400;
+  letter-spacing: -1px;
+  font-family: 'Montserrat','Helvetica Neue','Helvetica',sans-serif;
+}
+.title {
+  font-size: 500%;
+  width: 100%;
+  font-weight: 400;
+  letter-spacing: -7px;
+  font-family: 'Montserrat','Helvetica Neue','Helvetica',sans-serif;
+}
+.title-headline {
+  font-size: 250%;
+  font-weight: 400;
+  letter-spacing: -2px;
+  font-family: 'Montserrat';
 }
 }
 /* Video */
