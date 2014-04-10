@@ -476,6 +476,9 @@ padding: 5px 5px;
 .padded-bottom {
 	padding-bottom: 15px;
 }
+.padded-bottom-55 {
+  padding-bottom: 55px;
+}
 .padded-bottom-100 {
   padding-bottom: 100px;
 }
